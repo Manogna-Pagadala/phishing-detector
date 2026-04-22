@@ -9,7 +9,7 @@
   ],
   "host_permissions": [
     "https://mail.google.com/*",
-    "http://127.0.0.1:8000/*"
+    "https://phishing-detector-itv1.onrender.com/*"
   ],
   "content_scripts": [
     {
