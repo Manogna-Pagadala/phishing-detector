@@ -46,7 +46,7 @@ Chrome Extension
 - **AI:** Groq API (LLaMA 3.3 70B)
 - **Extension:** JavaScript, Chrome Extension Manifest V3
 - **Containerization:** Docker
-- **Deployment:** AWS EC2
+- **Deployment:** Render (https://phishing-detector-itv1.onrender.com)
 
 ---
 
