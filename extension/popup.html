@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      background: #1a1a2e;
+      color: white;
+      margin: 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #00d4ff;
+    }
+
+    .status {
+      background: #008000;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .info {
+      font-size: 12px;
+      color: #aaaaaa;
+      line-height: 1.6;
+    }
+
+    .legend {
+      margin-top: 12px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span style="font-size: 24px">🛡️</span>
+    <div class="title">Phishing Email Detector</div>
+  </div>
+
+  <div class="status">
+    ✅ Active — Monitoring your Gmail
+  </div>
+
+  <div class="info">
+    Automatically scans every email you open and alerts you if it looks suspicious.
+  </div>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="dot" style="background:#FF0000"></div>
+      <span>PHISHING — Do not click any links</span>
+    </div>
+    <div class="legend-item">
+      <div class="dot" style="background:#FFA500"></div>
+      <span>CAUTION — Be careful</span>
+    </div>
+    <div class="legend-item">
+      <div class="dot" style="background:#008000"></div>
+      <span>SAFE — Looks legitimate</span>
+    </div>
+  </div>
+</body>
+</html>
