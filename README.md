@@ -1,16 +1,16 @@
-# 🛡️ Phishing Email Detector
+# Phishing Email Detector
 
-An AI-powered Chrome extension that automatically scans emails in Gmail and alerts you in real-time if they are phishing attempts.
+An AI-powered Chrome extension that automatically scans emails in Gmail and alerts you in real time if they are phishing attempts.
 
 Built by a job seeker who got tired of fake recruiter emails.
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Job seekers receive hundreds of emails during their search. Scammers exploit this by sending fake job offers, fake interview requests, and malicious links. These emails often bypass spam filters and land in your inbox.
 
-## 💡 Solution
+## Solution
 
 A Chrome extension that silently monitors Gmail and instantly shows a colored warning banner on every email you open:
 
@@ -20,7 +20,7 @@ A Chrome extension that silently monitors Gmail and instantly shows a colored wa
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Gmail (Browser)
@@ -40,7 +40,7 @@ Chrome Extension
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Python, FastAPI, Uvicorn
 - **AI:** Groq API (LLaMA 3.3 70B)
@@ -50,7 +50,7 @@ Chrome Extension
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 ### Prerequisites
 - Python 3.10+
@@ -89,7 +89,7 @@ uvicorn main:app --reload
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### POST /analyze
 
@@ -125,7 +125,7 @@ Returns server status.
 
 ---
 
-## 🔍 What It Detects
+## What It Detects
 
 - Mismatched or spoofed sender domains
 - Urgency and pressure language
@@ -137,7 +137,7 @@ Returns server status.
 
 ---
 
-## 📸 Demo
+## Demo
 
 ![Demo](demo.png)
 
@@ -145,6 +145,6 @@ Returns server status.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Pull requests welcome. This tool is built for job seekers — let's make it better together.
+Pull requests welcome. This tool is built for job seekers. Let's make it better together.
