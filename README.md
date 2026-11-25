@@ -2,8 +2,6 @@
 
 An AI-powered Chrome extension that automatically scans emails in Gmail and alerts you in real time if they are phishing attempts.
 
-Built by a job seeker who got tired of fake recruiter emails.
-
 ---
 
 ## Problem
@@ -12,7 +10,7 @@ Job seekers receive hundreds of emails during their search. Scammers exploit thi
 
 ## Solution
 
-A Chrome extension that silently monitors Gmail and instantly shows a colored warning banner on every email you open:
+A Chrome extension that monitors Gmail and instantly shows a colored warning banner on every email you open:
 
 - 🔴 PHISHING — Do not click anything
 - 🟠 CAUTION — Be careful
